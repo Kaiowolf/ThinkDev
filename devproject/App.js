@@ -11,7 +11,7 @@ export default function App() {
   return (
     <SafeAreaView style={{flex: 1, justifyContent:'center', alignItems:'center'}} >
       <LottieView resizeMode="contain" autoSize source={devprograming} autoPlay loop />
-      <Text style={{color:"#a9a9a9", fontWeight:"bold", fontSize:20 }}>Área em Desenvolvimento</Text>
+      <Text style={{color:"#808080", fontWeight:"bold", fontSize:28 }}>Área em Desenvolvimento</Text>
       <LottieView style={{ width:200 , height:200 }} resizeMode="contain" source={webdevelop} autoPlay loop />
     </SafeAreaView>
   );
